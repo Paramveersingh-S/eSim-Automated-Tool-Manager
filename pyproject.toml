@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esim-tool-manager"
+version = "1.2.0"
+description = "Automated Tool, Dependency & Configuration Manager for FOSSEE eSim EDA Suite"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Paramveer Singh", email = "lco23586@ccetac.in" }
+]
+dependencies = []
+
+[project.scripts]
+esim-pkg = "esim_tool_manager.cli:main"
